@@ -1,0 +1,4 @@
+android/
+ios/
+yarn.lock
+node_modules/

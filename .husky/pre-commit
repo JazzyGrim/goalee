@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn tsc --noEmit && yarn eslint . --max-warnings=0 --fix && yarn prettier --write .
